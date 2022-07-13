@@ -3,6 +3,9 @@ Manages acces of users to the system with sql and cookies<br>
 Signin and login returns 2 parameters<br>
 - If the action is computed ok
 - The cookie that is generated for the user
+
+This repo requieres ``` sqlite3 ```
+
 ```python
 session = AccessController("users.db", True)
 ```
