@@ -1,6 +1,6 @@
 from hashlib import sha3_256
-from SqliteController import SQLiteController
-from CookieControl import SessionRegister
+from .SqliteController import SQLiteController
+from .CookieControl import SessionRegister
 
 
 class AccessController:
