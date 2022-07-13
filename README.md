@@ -7,6 +7,8 @@ Signin and login returns 2 parameters<br>
 This repo requieres ``` sqlite3 ```
 
 ```python
+from AccesControl import AccessController
+
 session = AccessController("users.db", True)
 ```
 How to Login or register
